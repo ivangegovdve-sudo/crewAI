@@ -107,7 +107,7 @@ stagehand = [
     "stagehand>=0.4.1",
 ]
 github = [
-    "gitpython>=3.1.47,<4",
+    "gitpython>=3.1.50,<4",  # 3.1.50+ required for GHSA-mv93-w799-cj2w (newline injection -> RCE via core.hooksPath)
     "PyGithub==1.59.1",
 ]
 rag = [
